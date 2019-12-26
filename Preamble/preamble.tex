@@ -1,0 +1,110 @@
+\usepackage{amsmath,amsxtra,amssymb,latexsym, amscd,amsthm}
+\usepackage{color,indentfirst}
+\usepackage[utf8]{vietnam}
+\usepackage[left=30mm,right=20mm,top=30mm,bottom=35mm]{geometry}
+\usepackage{fancyhdr}
+
+%\usepackage{amsfonts}
+\usepackage{longtable}
+\usepackage{pgf,tikz}
+%\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+\usepackage{enumerate}
+\pagenumbering{arabic}
+\usepackage{enumerate}
+\usepackage{cases}
+\usepackage{verbatim}
+\usepackage{rotating}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{subcaption}
+%\singlespacing
+\onehalfspacing
+%\doublespacing
+%\setstretch{1.1}
+% \usepackage{xypic,tikz}
+% \usepackage{tikz-cd}
+\usepackage[colorlinks=true, linkcolor=blue]{hyperref}
+% \usepackage{setspace}
+
+% \usepackage[unicode,pdfborder={0 0 0},colorlinks=true, linkcolor=blue]{hyperref}
+
+\renewcommand{\theequation}{\arabic{chapter}.\arabic{section}.\arabic{equation}}
+
+\newtheorem{thm}{Theorem}[section]
+
+\newtheorem{corollary}{\bf Hệ quả}[section]
+
+
+\theoremstyle{definition}
+\newtheorem{definition}[thm]{\bf Định nghĩa}
+\newcommand{\dn}{\begin{definition}}
+\newcommand{\hdn}{\end{definition}}
+
+
+\newtheorem{example}[thm]{\bf Ví dụ}
+\newcommand{\vd}{\begin{example}}
+\newcommand{\hvd}{\end{example}}
+
+
+\theoremstyle{proposition}
+\newtheorem{proposition}[thm]{\bf Mệnh đề}
+\newcommand{\md}{\begin{proposition}}
+\newcommand{\hmd}{\end{proposition}}
+
+
+
+\newtheorem{remark}[thm]{\bf Hệ quả}
+\newcommand{\hq}{\begin{remark}}
+\newcommand{\hhq}{\end{remark}}
+
+
+
+\newtheorem{lemma}[thm]{\bf Bổ đề}
+\newcommand{\bd}{\begin{lemma}}
+\newcommand{\hbd}{\end{lemma}}
+
+\newtheorem{algorithm}[thm]{\bf Thuật toán}
+\newcommand{\alo}{\begin{algorithm}}
+\newcommand{\ealo}{\end{algorithm}}
+
+
+
+
+\newtheorem{theorem}[thm]{\bf Định lý}
+\newcommand{\dl}{\begin{theorem}}
+\newcommand{\hdl}{\end{theorem}}
+
+\theoremstyle{break} 
+%\theorembodyfont{\normalfont} 
+
+
+\usepackage{enumerate}
+\usepackage{graphicx}
+\newcommand{\Rn}{ \mathbb{R}^n }
+\newcommand{\Zn}{ \mathbb{Z}^n }
+\newcommand{\Rns}{ (\mathbb{R}^n)^* }
+
+
+
+\newcommand{\Ndn}{ \overset{\vee }{\sigma}}
+\newcommand{\tdn}{ \overset{\vee }{\tau}}
+
+\DeclareMathOperator\Conv{Conv}
+\DeclareMathOperator\codim{codim}
+
+%------------------------------------------dinh dang moi truong---------------------------------------------------------------------------------------%
+\makeindex
+
+\setcounter{secnumdepth}{3} %tao so cho subsubsection
+%+ Bat dau tai lieu tai day.
+
+\def\N{\mathbb{N}}
+\def\Z{\mathbb{Z}}
+\def\R{\mathbb{R}}
+\def\Q{\mathbb{Q}}
+\def\C{\mathbb{C}}  
+\def\K{\mathbb{K}}  
+\def\F{\mathbb{F}}  
+\def\L{\mathbb{L}}  
+\def\X{\mathbb{X}}

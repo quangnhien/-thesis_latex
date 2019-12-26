@@ -1,0 +1,22 @@
+\chapter{Giới thiệu}  %Title of the First Chapter
+
+\ifpdf
+    \graphicspath{{Chapter1/Figs/Raster/}{Chapter1/Figs/PDF/}{Chapter1/Figs/}}
+\else
+    \graphicspath{{Chapter1/Figs/Vector/}{Chapter1/Figs/}}
+\fi
+
+
+%********************************** %First Section  **************************************
+
+Những năm gần đây, AI-Artifical Intelligence (Trí tuệ nhân tạo), và cụ thể hơn là Machine Learning (Học máy) nổi lên như một bằng chứng của cuộc cách mạng công nghiệp lần thứ tư. Trí tuệ nhân tạo len lỏi vào mọi lĩnh vực trong cuộc sống mà có thể chúng ta không nhận ra. Xe tự lái, hệ thống tự tag khuôn mặt trong ảnh của Facebook, trợ lý ảo Siri của Apple, hệ thống gợi ý sản phẩm trên các trang buôn bán điện tử, ... chỉ là một vài trong vô vàn ứng dụng của AI/Machine Learning.\\
+Machine Learning(Học máy) là một tập con của AI, nó có khả năng tự học hỏi dựa trên những dữ liệu từ lịch sử mà không cần phải lập trình cụ thể. Những năm gần đây, khi mà khả năng tính toán của máy tính được nâng lên tầm cao mới và bộ dữ liệu khổng lồ được thu tập từ các hãng công nghệ mới, Machine Learning đã tiến thêm một bước dài và lĩnh vực mới ra đời gọi là Deep Learning (Học sâu). Deep Learning đã giúp máy tính thực hiện những việc tưởng chừng không thể như phân loại cả ngàn vật thể khác nhau trong một bức ảnh, tự tạo chú thích cho ảnh, chuẩn đoán bệnh thông qua hình ảnh, giao tiếp với con người. Convolutional neural network (CNNs: Mạng thần kinh tích chập) là một biến thể của Deep Neural Network (DNNs: Mạng thần kinh sâu) đã đạt được độ chính xác vượt con người trong nhiệm vụ phân loại ảnh.\\
+Cùng với sự đa dạng của dữ liệu phi tuyến tính, xu hướng các NN hiện nay là càng ngày sâu, càng chồng nhiều lớp với nhau để có thể mô hình hóa được những đặc trưng tốt nhất của dữ liệu. Vì vậy, số lượng tham số hay thể tích của mô hình ngày càng lớn khiến chúng phải cần một khối lượng dữ liệu đào tạo lớn để tránh tình trạng overfitting. Khối lượng lớn ở đây ngoài số lượng còn muốn nói đến sự đa dạng, tổng quát trong dữ liệu và việc bao nhiêu là đủ lớn rất khó để xác định được. Vì vậy, việc mô hình bị overfitting hay không khó để kiểm soát. Cùng với đó, những mô hình NN hiện tại không có khả năng ước lượng độ không chắc chắn của dự đoán của chúng dẫn đến việc quá tự tin quyết định, đưa ra những dự đoán.\\
+Trong luận văn này, tôi sẽ giới thiệu về Baysians Neural Network hay cụ thể hơn là Bayesian Convolutional Neural Network (BayesCNN), thay vì tìm một bộ trọng số tối ưu, BayesCNN ước lượng mỗi trong số một phân phối cụ thể giúp mô hình trở nên tổng quát hơn. BayesCNN không chỉ đạt hiệu suất tương đương mà còn đưa ra một ước lượng về độ không chắc chắn cho từng dự đoán, giúp việc quyết định việc có nên tin vào kết quả dự đoán đó của mô hình hay không?\\
+\textbf{Nội dung luận văn gồm 6 chương:}\\
+	\textit{Chương 1:} Giới thiệu.\\
+	\textit{Chương 2:} Kiến thức chuẩn bị.\\
+	\textit{Chương 3:} Suy luận Baysian\\
+	\textit{Chương 4:} Bayesian Convolutional Neural Networks\\
+	\textit{Chương 5:} Ứng dụng vào bài toán phân loại.\\
+	\textit{Chương 6:} Kết luận và triển vọng.\\
